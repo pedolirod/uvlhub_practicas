@@ -13,10 +13,15 @@ features = [
     "featuremodel",
     "flamapy",
     "hubfile",
+    "notepad",
     "profile",
     "public",
     "team",
     "zenodo",
+]
+
+features_prod = [
+    "webhook",
 ]
 features_dev = [
     "webhook",
@@ -26,9 +31,6 @@ features_dev = [
 # and development/testing need it for its own test suite. The endpoint refuses
 # outright when WEBHOOK_TOKEN is not configured, so enabling it in production
 # does not open an unauthenticated surface.
-features_prod = [
-    "webhook",
-]
 
 # --------------------
 # Formatting & linting
