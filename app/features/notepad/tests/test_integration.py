@@ -2,6 +2,7 @@
 
 Drive the application through the Flask test client. The ``test_client``
 fixture from splent_framework rebuilds a clean DB per test for full isolation.
+testing
 """
 import pytest
 
